@@ -1,5 +1,5 @@
 import { Application } from "pixi.js";
-import { Card } from "./card";
+import { Card } from "./Card";
 
 export class Deck {
     cards: Card[] = [];

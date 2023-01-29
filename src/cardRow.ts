@@ -1,5 +1,5 @@
 import { Container } from "pixi.js";
-import { Card } from "./card";
+import { Card } from "./Card";
 
 export class CardRow extends Container {
     name: string;

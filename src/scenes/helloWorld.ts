@@ -1,6 +1,6 @@
 import { Application, Container, Point, Sprite } from 'pixi.js';
-import { Deck } from '../deck';
-import { CardRow } from '../cardRow';
+import { Deck } from '../Deck';
+import { CardRow } from '../CardRow';
 
 export class HelloWorld extends Container {
     app: Application;

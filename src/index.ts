@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js';
-import { HelloWorld } from './scenes/helloWorld';
+import { HelloWorld } from './scenes/HelloWorld';
 
 const load = (app: PIXI.Application) => {
     return new Promise<void>((resolve) => {
