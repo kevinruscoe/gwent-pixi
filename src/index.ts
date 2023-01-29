@@ -3,7 +3,7 @@ import { HelloWorld } from './scenes/HelloWorld';
 
 const load = (app: PIXI.Application) => {
     return new Promise<void>((resolve) => {
-        app.loader.add('assets/hello-world.png').load(() => {
+        app.loader.add(['assets/border1.png']).load(() => {
             resolve();
         });
     });

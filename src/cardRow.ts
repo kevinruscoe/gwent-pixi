@@ -9,9 +9,12 @@ export class CardRow extends Container {
     constructor(name: string) {
         super();
         this.name = name;
+        this.height = window.innerHeight/3;
+        this.width = window.innerWidth;
     }
 
     addCard(card: Card) {
+        card.height = 100;
         this.cards.push(card);
 
         this.addChild(card);

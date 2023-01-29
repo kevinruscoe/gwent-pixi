@@ -8,7 +8,7 @@ export class Deck {
         for (let index = 0; index < amount; index++) {
             this.cards.push(
                 new Card(
-                    app.loader.resources['assets/hello-world.png'].texture,
+                    app.loader.resources['assets/border1.png'].texture,
                     Math.floor(Math.random() * (10 - 1 + 1) + 1)
                 )
             );
